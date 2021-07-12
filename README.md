@@ -1,0 +1,1 @@
+# VanillaJS-Shakespare-Translate
