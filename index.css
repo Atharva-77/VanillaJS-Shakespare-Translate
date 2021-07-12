@@ -1,0 +1,62 @@
+:root
+{
+    --brown:#d95757;
+     /* #c21010; */
+}
+
+body
+{
+    margin: 0px;
+    /* align-items: center; */
+    background-color: #ffc9c9;
+}
+nav
+{
+    background-color: var(--brown);
+}
+main
+{
+    margin: auto;  
+    max-width: 500px;
+
+}
+
+.nav-text
+{
+    font-size: 2em;
+    text-align: center;
+    padding: 15px;
+    font-weight: 800;
+}
+
+
+textarea {
+    display: block;
+
+    width: 100%;
+    min-height: 18vh;
+    
+    margin: 3rem 0;
+    
+    font-size: large;
+}
+
+button {
+    background-color: var(--brown);
+    border: none;
+    margin-bottom: 1.3rem;
+    padding: 1rem 1rem;
+    font-size: large;
+    font-weight: 550;
+}
+
+#text-output
+{
+    margin:0.8rem 0;
+}
+
+.translate-message
+{
+    font-weight: 800;
+    font-size: large;
+}
