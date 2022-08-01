@@ -1,6 +1,6 @@
 :root
 {
-    --brown:#d95757;
+    --brown:#7dd957;
      /* #c21010; */
 }
 
@@ -8,7 +8,7 @@ body
 {
     margin: 0px;
     /* align-items: center; */
-    background-color: #ffc9c9;
+    background-color: #f2ffc9;
 }
 nav
 {
