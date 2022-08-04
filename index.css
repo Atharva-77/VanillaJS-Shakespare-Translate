@@ -1,6 +1,6 @@
 :root
 {
-    --brown:#7dd957;
+    --green:#7dd957;
      /* #c21010; */
 }
 
@@ -12,7 +12,7 @@ body
 }
 nav
 {
-    background-color: var(--brown);
+    background-color: var(--green);
 }
 main
 {
@@ -42,7 +42,7 @@ textarea {
 }
 
 button {
-    background-color: var(--brown);
+    background-color: var(--green);
     border: none;
     margin-bottom: 1.3rem;
     padding: 1rem 1rem;
@@ -59,4 +59,28 @@ button {
 {
     font-weight: 800;
     font-size: large;
+}
+
+.footercls {
+    background-color: var(--green);
+    text-align: center;
+    padding-bottom: 2rem;
+    /* margin-bottom: 20px; */
+}
+
+.footer-heading {
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-top: 17px;
+    padding-bottom: 12px;
+    margin-top: 44px;
+
+}
+
+.footer-data {
+    /* text-align: center; */
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.2rem;
+
 }

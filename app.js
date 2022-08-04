@@ -20,12 +20,14 @@ function shakesparefun()
     // alert("ji")
     // console.log("inp in func",inp.value);
     // out.innerText=inp.value+" yoo";
-    finalUrl+="?"+"text="+inp.value;
+    finalUrl = url+"?"+"text="+inp.value;
+    console.log("FINAL URL",finalUrl);
     fetch(finalUrl)
     .then(r=>r.json())
     .then(res=>
         {
             out.innerText=res.contents.translated;
+        console.log("Output is", out.value, out.innerText);
 
         })
         .catch(errorHandler)
